@@ -1,0 +1,16 @@
+1. khái niệm static
+A. static cho thuộc tính
++ khi một thuộc tính không phụ thuộc vào bất kỳ đối tượng nào
++ các đối tượng đều có chung giá trị cho thuộc tính này
+=> thì thuộc tính đó là static
+
++ khi thuộc tính phụ thuộc/có giá trị riêng cho mỗi đối tượng
+=> thì cho thuộc tính đó là non-static
+
+B. static cho method
+Hàm chỉ phụ thuộc vào tham số truyền vào, không phụ thuộc vào đối tượng
+-> cho hàm là static
+
+
+
+
