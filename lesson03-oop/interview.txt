@@ -1,0 +1,24 @@
+1. có nên/được phép khai báo hàm khởi tạo là private không?
+-> được
+	+ helper / utility class
+	+ builder pattern
+	
+2. tại sao khai báo các thuộc tính trong class là private chứ
+không phải là public? 
+	+ đảm bảo quy tắc OOP - mỗi class chỉ chứa/quản lý thông tin của riêng nó
+	--> FOP: share data
+	+ hạn chế truy cập từ những đối tượng không cần thiết
+	ví dụ: Employee và Company
+	nhân viên hằng tháng sẽ nhận được lương từ công ty
+		+ money của nhân viên tăng, quỹ công ty giảm
+			-> nhân viên và công ty không biết tiền còn lại của nhau
+
+3. khái niệm từ khóa this?
+--> đối tượng hiện tại đang gọi đến hàm non-static
+
+4. từ khóa static
++ static attribute
++ static method
+
+
+
